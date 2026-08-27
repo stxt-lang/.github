@@ -1,4 +1,4 @@
-# STXT · Semantic Text
+# STXT
 
 **STXT** is a plain-text format for structured, semantic documents: no braces, no closing tags,
 just indentation. It is designed to be equally readable by people and by machines, and it comes
