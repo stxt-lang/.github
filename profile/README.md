@@ -1,8 +1,6 @@
 # STXT
 
-**STXT** is a plain-text language for structured, semantic documents: no braces, no closing tags,
-just indentation. It is designed to be equally readable by people and by machines, and it comes
-with an optional schema layer so documents can be validated.
+**STXT** is a **Human-First** language, designed for documents and structured data.
 
 ```stxt
 # A comment
@@ -15,13 +13,19 @@ Document (com.example.docs): Title
 		the #, : and >> inside are not interpreted.
 ```
 
-Start at **<https://stxt.dev>** — the tutorial, the five specifications and the tools — or try it
-directly in the browser at **<https://play.stxt.dev>**.
+- **Indentation is the structure**: no braces or closing tags
+- **Free text is literal**: no escape characters
+- **Optional schemas**: validation and structure, written in STXT itself
+- **Built-in namespaces**: part of the core syntax, they give meaning to every node
+
+Two places to start:
+
+- **<https://stxt.dev>**: the tutorial, the five specifications and the tools
+- **<https://play.stxt.dev>**: the playground, to try it in the browser
 
 ## The repositories
 
-The specification is the first authority of the ecosystem: the implementations derive from it,
-never the other way around.
+The specification is the first authority. The implementations derive from it, never the other way around.
 
 ```
 specifications (stxt-lang)
@@ -43,8 +47,8 @@ specifications (stxt-lang)
 | [stxt-play](https://github.com/stxt-lang/stxt-play) | The playground, <https://play.stxt.dev> |
 | [stxt-cms](https://github.com/stxt-lang/stxt-cms) | The static site generator that builds <https://stxt.dev> |
 
-`stxt-cms` was an internal project, now public in case you want to try it. There is still a lot to
-polish, but it gives an idea of a real CMS running on STXT.
+`stxt-cms` was an internal project, and it is now public. There is still a lot to polish,
+but it shows a real CMS running on STXT.
 
 ## License
 
