@@ -45,6 +45,7 @@ specifications (stxt-lang)
 | [stxt-cli](https://github.com/stxt-lang/stxt-cli) | The `stxt` command, [`@stxt-lang/cli`](https://www.npmjs.com/package/@stxt-lang/cli) |
 | [stxt-vscode](https://github.com/stxt-lang/stxt-vscode) | VS Code extension, [`stxt-lang.stxt`](https://marketplace.visualstudio.com/items?itemName=stxt-lang.stxt) |
 | [stxt-play](https://github.com/stxt-lang/stxt-play) | The playground, <https://play.stxt.dev> |
+| [stxt-editor](https://github.com/stxt-lang/stxt-editor) | The editor for any web page, [`@stxt-lang/editor`](https://www.npmjs.com/package/@stxt-lang/editor) |
 | [stxt-cms](https://github.com/stxt-lang/stxt-cms) | The static site generator that builds <https://stxt.dev> |
 
 `stxt-cms` was an internal project, and it is now public. There is still a lot to polish,
