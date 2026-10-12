@@ -20,7 +20,7 @@ Document (com.example.docs): Title
 
 Two places to start:
 
-- **<https://stxt.dev>**: the tutorial, the five specifications and the tools
+- **<https://stxt.dev>**: the tutorial, the six specifications and the tools
 - **<https://play.stxt.dev>**: the playground, to try it in the browser
 
 ## The repositories
@@ -37,7 +37,7 @@ specifications (stxt-lang)
 
 | Repository | Role |
 |---|---|
-| [stxt-lang](https://github.com/stxt-lang/stxt-lang) | The five normative specifications, the conformance kit and the source of the portal |
+| [stxt-lang](https://github.com/stxt-lang/stxt-lang) | The six normative specifications, the conformance kit and the source of the portal |
 | [stxt-impl](https://github.com/stxt-lang/stxt-impl) | Neutral pseudocode of the implementation, second authority after the specifications |
 | [stxt-js](https://github.com/stxt-lang/stxt-js) | TypeScript reference port, [`@stxt-lang/core`](https://www.npmjs.com/package/@stxt-lang/core) |
 | [stxt-java](https://github.com/stxt-lang/stxt-java) | Java port, [`dev.stxt:stxt-core`](https://central.sonatype.com/artifact/dev.stxt/stxt-core) |
