@@ -5,12 +5,12 @@
 ```stxt
 # A comment
 Document (com.example.docs): Title
-	Metadata:
-		Author: Joan
-		Date: 2026-08-09
-	Content >>
-		Everything indented under a ">>" node is literal text:
-		the #, : and >> inside are not interpreted.
+    Metadata:
+        Author: Joan
+        Date: 2026-08-09
+    Content >>
+        Everything indented under a ">>" node is literal text:
+        the #, : and >> inside are not interpreted.
 ```
 
 - **Indentation is the structure**: no braces or closing tags
